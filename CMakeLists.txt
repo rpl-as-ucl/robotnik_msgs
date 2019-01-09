@@ -45,6 +45,7 @@ add_message_files(DIRECTORY msg
     BatteryDockingStatus.msg
     BatteryDockingStatusStamped.msg
     BoolArray.msg
+    MotorPID.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -74,6 +75,7 @@ add_service_files(
     set_named_digital_output.srv
     SetLaserMode.srv
     ResetFromSubState.srv
+    SetMotorsPID.srv
 )
 
 add_action_files(
