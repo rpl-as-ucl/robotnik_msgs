@@ -75,7 +75,8 @@ add_service_files(
     set_named_digital_output.srv
     SetLaserMode.srv
     ResetFromSubState.srv
-    SetMotorsPID.srv
+    SetMotorPID.srv
+    SetMotorMode.srv
 )
 
 add_action_files(
