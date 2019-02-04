@@ -1,4 +1,4 @@
-MotorPID[] pid
+MotorPID pid
 ---
 bool success
 string message
