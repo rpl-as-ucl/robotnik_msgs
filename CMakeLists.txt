@@ -4,7 +4,7 @@ project(robotnik_msgs)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS actionlib_msgs std_msgs geometry_msgs message_generation)
+find_package(catkin REQUIRED COMPONENTS actionlib_msgs std_msgs geometry_msgs  message_generation)
 
 
 #######################################
@@ -52,6 +52,9 @@ add_message_files(DIRECTORY msg
     MotorPID.msg
     Pose2DArray.msg
     Pose2DStamped.msg
+    RobotnikMoveBaseFlexGoalAction.msg
+    RobotnikMoveBaseFlexFeedbackAction.msg
+    RobotnikMoveBaseFlexResultAction.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -95,6 +98,7 @@ add_service_files(
 add_action_files(
     FILES
     SetElevator.action
+    RobotnikMoveBaseFlex.action
 )
 
 

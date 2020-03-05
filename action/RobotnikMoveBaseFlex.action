@@ -1,0 +1,5 @@
+robotnik_msgs/RobotnikMoveBaseFlexGoalAction goal
+---
+robotnik_msgs/RobotnikMoveBaseFlexFeedbackAction feedback
+---
+robotnik_msgs/RobotnikMoveBaseFlexResultAction result
