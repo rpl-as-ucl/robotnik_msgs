@@ -53,6 +53,8 @@ add_message_files(DIRECTORY msg
     Pose2DArray.msg
     Pose2DStamped.msg
     ReturnMessage.msg
+    PresenceSensor.msg
+    PresenceSensorArray.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -91,6 +93,7 @@ add_service_files(
     SetEncoderTurns.srv
     GetMotorsHeadingOffset.srv
     SetByte.srv
+    SetTransform.srv
 )
 
 add_action_files(
